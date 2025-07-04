@@ -60,4 +60,4 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.markdown("---")
-st.markdown("Made with ❤️ by [Safoura Yaghoubi](https://www.linkedin.com/in/https://www.linkedin.com/in/safoura-yaghoubi-87bab1224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) · [GitHub](https://github.com/yasamin1985)")
+st.markdown("Made with ❤️ by [Safoura Yaghoubi](https://www.linkedin.com/in/safoura-yaghoubi-87bab1224) · [GitHub](https://github.com/yasamin1985)")
