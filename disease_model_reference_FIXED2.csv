@@ -1,0 +1,21 @@
+Disease Name,Suggested Model
+Hypertension,Linear
+Type 2 Diabetes,Exponential
+Asthma,OU
+COPD,Linear
+Breast Cancer,Exponential
+Colon Cancer,OU
+Parkinson's,Exponential
+Epilepsy,Exponential
+Chronic Kidney Disease,OU
+Alzheimer's,Exponential
+Rheumatoid Arthritis,OU
+Lupus,Linear
+Osteoarthritis,OU
+Heart Failure,OU
+Multiple Sclerosis,Exponential
+Liver Disease,OU
+Pancreatitis,Exponential
+Glaucoma,Exponential
+HIV/AIDS,OU
+Anxiety Disorder,Exponential
