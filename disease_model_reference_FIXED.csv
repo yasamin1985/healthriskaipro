@@ -1,4 +1,4 @@
-Name,Model
+Disease Name,Suggested Model
 Hypertension,Linear
 Type 2 Diabetes,Exponential
 Asthma,OU
