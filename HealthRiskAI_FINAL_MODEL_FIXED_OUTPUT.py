@@ -30,7 +30,7 @@ def linear_model(chronic_score, last_year_cost):
 
 @st.cache_data
 def load_reference_table():
-    url = "https://raw.githubusercontent.com/yasamin1985/healthriskaipro/main/disease_model_reference_FIXED%202.csv"
+    url = "https://raw.githubusercontent.com/yasamin1985/healthriskaipro/main/disease_model_reference_FIXED_2.csv"
     ref = pd.read_csv(url)
     return dict(zip(ref["Disease Name"], ref["Suggested Model"]))
 
