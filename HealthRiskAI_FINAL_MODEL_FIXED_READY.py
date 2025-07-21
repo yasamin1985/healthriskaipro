@@ -58,7 +58,7 @@ if uploaded_file:
             disease = row["Disease Name"]
             model_name = ref_table.get(disease, "OU")
             if model_name == "Exponential":
-                predicted_cost, risk_score, risk_level = exponential_model(row["Chronic_Score"], row["Last_Year_Cost"])
+                predicted_cost, risk_score, risk_level = exponential_model(row["Chronic_Score"], row["Last_Year_Cost"], disease_name=disease)
             elif model_name == "Linear":
                 predicted_cost, risk_score, risk_level = linear_model(row["Chronic_Score"], row["Last_Year_Cost"])
             else:
