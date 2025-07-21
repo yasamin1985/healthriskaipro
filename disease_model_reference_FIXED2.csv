@@ -1,6 +1,6 @@
 Disease Name,Suggested Model
 Hypertension,Linear
-Type 2 Diabetes,Exponential
+Type 2 Diabetes,OU
 Asthma,OU
 COPD,Linear
 Breast Cancer,Exponential
