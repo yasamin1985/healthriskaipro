@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-def simulate_ou_process(chronic_score, last_year_cost, theta=0.1, mu_base=11000, sigma=100):
+def simulate_ou_process(chronic_score, last_year_cost, theta=0.1, mu_base=11500, sigma=100):
     T = 10
     dt = 1
     x = np.zeros(T)
