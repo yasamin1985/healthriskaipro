@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-def simulate_ou_process(chronic_score, last_year_cost, theta=0.15, mu_base=12200, sigma=100):
+def simulate_ou_process(chronic_score, last_year_cost, theta=0.05, mu_base=1000, sigma=200):
     T = 10
     dt = 1
     x = np.zeros(T)
@@ -17,7 +17,7 @@ def simulate_ou_process(chronic_score, last_year_cost, theta=0.15, mu_base=12200
     return round(predicted_cost, 2), round(risk_score, 2), risk_level
 
 def exponential_model(chronic_score, last_year_cost, disease_name=None):
-    predicted_cost = last_year_cost * np.exp(0.0102 * chronic_score)
+    predicted_cost = last_year_cost * np.exp(0.05 * chronic_score)
      
     risk_score = chronic_score * predicted_cost / 10000
     risk_level = "Low" if risk_score < 2 else "Medium" if risk_score < 5 else "High"
