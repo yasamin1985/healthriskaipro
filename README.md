@@ -22,8 +22,11 @@ An interactive Streamlit-based app that predicts next year's healthcare cost for
 - Chronic Score (0 to 1)
 - Last Year Cost (USD)
 - Disease Name
+ 
+### 🚀 How to run locally:
+🔗 Streamlit App:
+https://healthriskaipro-dovat2hv3qp9fnhcrxtmxm.streamlit.app/
 
----
 
 ✅ Fully upgraded in July 2025.
 Built with ❤️ by Safoura Yaghoubi
