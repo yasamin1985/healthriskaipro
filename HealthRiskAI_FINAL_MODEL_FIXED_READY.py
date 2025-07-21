@@ -28,7 +28,7 @@ def linear_model(chronic_score, last_year_cost):
     risk_level = "Low" if risk_score < 2 else "Medium" if risk_score < 5 else "High"
     return round(predicted_cost, 2), round(risk_score, 2), risk_level
 
-@st.cache_data
+
 def load_reference_table():
     url = "https://raw.githubusercontent.com/yasamin1985/healthriskaipro/main/disease_model_reference_FIXED2.csv"
     ref = pd.read_csv(url)
