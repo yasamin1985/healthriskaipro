@@ -18,12 +18,7 @@ def simulate_ou_process(chronic_score, last_year_cost, theta=0.15, mu_base=12200
 
 def exponential_model(chronic_score, last_year_cost, disease_name=None):
     predicted_cost = last_year_cost * np.exp(0.012 * chronic_score)
-    
-        #  فقط برای Type 2 Diabetes adjustment می‌ذاریم:
-    if disease_name == "Type 2 Diabetes":
-        adjustment = 12800 / predicted_cost
-        predicted_cost *= adjustment
-        
+     
     risk_score = chronic_score * predicted_cost / 10000
     risk_level = "Low" if risk_score < 2 else "Medium" if risk_score < 5 else "High"
     return round(predicted_cost, 2), round(risk_score, 2), risk_level
