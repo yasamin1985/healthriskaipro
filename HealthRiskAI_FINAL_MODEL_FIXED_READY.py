@@ -22,7 +22,9 @@ def exponential_model(chronic_score, last_year_cost, disease_name=None):
         #  فقط برای Type 2 Diabetes adjustment می‌ذاریم:
     if disease_name == "Type 2 Diabetes":
         adjustment = 12800 / predicted_cost
-        predicted_cost *= adjustment
+        predicted_cost = predicted_cost_base * adjustment
+    else:
+        predicted_cost = predicted_cost_bas
         
     risk_score = chronic_score * predicted_cost / 10000
     risk_level = "Low" if risk_score < 2 else "Medium" if risk_score < 5 else "High"
