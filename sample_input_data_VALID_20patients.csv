@@ -1,0 +1,21 @@
+Name,Age,Chronic_Score,Last_Year_Cost,Disease Name
+Patient 1,30,1,1000,Hypertension
+Patient 2,31,2,1500,Type 2 Diabetes
+Patient 3,32,3,2000,Asthma
+Patient 4,33,4,2500,COPD
+Patient 5,34,5,3000,Breast Cancer
+Patient 6,35,6,1000,Colon Cancer
+Patient 7,36,1,1500,Parkinson's
+Patient 8,37,2,2000,Epilepsy
+Patient 9,38,3,2500,Chronic Kidney Disease
+Patient 10,39,4,3000,Alzheimer's
+Patient 11,30,5,1000,Rheumatoid Arthritis
+Patient 12,31,6,1500,Lupus
+Patient 13,32,1,2000,Osteoarthritis
+Patient 14,33,2,2500,Heart Failure
+Patient 15,34,3,3000,Multiple Sclerosis
+Patient 16,35,4,1000,Liver Disease
+Patient 17,36,5,1500,Pancreatitis
+Patient 18,37,6,2000,Glaucoma
+Patient 19,38,1,2500,HIV/AIDS
+Patient 20,39,2,3000,Anxiety Disorder
