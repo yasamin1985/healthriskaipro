@@ -17,7 +17,7 @@ def simulate_ou_process(chronic_score, last_year_cost, theta=0.15, mu_base=12200
     return round(predicted_cost, 2), round(risk_score, 2), risk_level
 
 def exponential_model(chronic_score, last_year_cost, disease_name=None):
-    predicted_cost = last_year_cost * np.exp(0.012 * chronic_score)
+    predicted_cost = last_year_cost * np.exp(0.0105 * chronic_score)
      
     risk_score = chronic_score * predicted_cost / 10000
     risk_level = "Low" if risk_score < 2 else "Medium" if risk_score < 5 else "High"
